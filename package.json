@@ -1,7 +1,7 @@
 {
   "name": "bunyan-between",
-  "version": "0.1.0",
-  "description": "Filter bunyan logs from a point in time to a second one. Based on bunyan-reltime from Chakrit Wichian.",
+  "version": "0.1.1",
+  "description": "Filter bunyan logs in a given time frame. Based on bunyan-reltime from Chakrit Wichian.",
   "main": "index.js",
   "bin": {
     "bunyan-between": "index.js"
