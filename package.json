@@ -1,0 +1,43 @@
+{
+  "name": "bunyan-between",
+  "version": "0.1.0",
+  "description": "Filter bunyan logs from a point in time to a second one. Based on bunyan-reltime from Chakrit Wichian.",
+  "main": "index.js",
+  "bin": {
+    "bunyan-between": "index.js"
+  },
+  "dependencies": {
+    "JSONStream": "~0.7.1",
+    "optimist": "~0.6.0",
+    "moment": "~2.3.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/sensorberg-dev/bunyan-between"
+  },
+  "keywords": [
+    "bunyan",
+    "reltime"
+  ],
+  "author": "Sensorberg GmbH <info@sensorberg.com> (http://www.sensorberg.com)",
+  "contributors": [
+      {
+          "name": "Juri Leino",
+          "email": "contact@line-o.de",
+          "url": "http://line-o.de"
+      },
+      {
+          "name": "Chakrit Wichian",
+          "email": "service@chakrit.net",
+          "url": "http://chakrit.net"
+      }
+  ],
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/sensorberg-dev/bunyan-between/issues"
+  }
+}
