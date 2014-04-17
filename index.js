@@ -4,7 +4,6 @@
 module.exports = (function(undefined) {
 
   var assert = require('assert')
-    , reltime = require('reltime')
     , JSONStream = require('JSONStream')
     , optimist = require('optimist')
     , moment = require('moment')
@@ -49,7 +48,7 @@ if (require.main === module) {
   argv.shift(); // index.js
 
   if (argv.length === 0) {
-    console.error("bunyan-reltime from-date [to-date]");
+    console.error("bunyan-between from-date [to-date]");
     return process.exit(1);
   }
 
